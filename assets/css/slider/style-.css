@@ -1,0 +1,41 @@
+.carousel-item {
+    height: 400px;
+    background: no-repeat center 20% scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.carousel-caption{
+
+    background-color: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    position: absolute;
+    left: inherit;
+    right: 0;
+    bottom: 0;
+    width: 35%;
+    height: 20%;
+
+    z-index: 10;
+    padding-top: 2%;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.carousel-caption h4{
+    font-family: "source sans pro", Arial, sans-serif;
+    color: #f0f0f0;
+    text-shadow:1px 1px #fafafa;
+
+
+}
+
+.carousel-caption h4{
+    text-transform: uppercase;
+}.carousel-caption p{
+    padding-left: 10px;
+    text-align: justify;
+}

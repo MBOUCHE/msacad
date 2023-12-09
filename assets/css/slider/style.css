@@ -1,0 +1,84 @@
+
+/* front page slider styles */
+
+#slider-block{
+    margin-bottom: 20px;
+
+}
+
+div#jFlowSlide {
+    margin:0 auto;
+}
+div#slides-static {
+    padding: 100px 120px 0;
+    width: 850px;
+    height:auto;
+}
+div.slides-container {
+    background-color: white;
+    height: 315px;
+    overflow: hidden;
+    width: 100%;
+    padding: 40px;
+}
+div.slides-container div#jFlowSlide {
+    height: 455px;
+}
+div.slides-container div.jFlowSlideContainer img {
+    margin:auto;
+}
+div.slides-container div.jFlowSlideContainer div {
+}
+div.slides-container div.jFlowSlideContainer div.slide-image {
+    float:left;
+    width: 380px;
+    padding-top: 0px;
+}
+span.jFlowPrev, span.jFlowNext {
+    background-image:url('images/slide-prev.gif');
+    background-repeat:no-repeat;
+    display:block;
+    height:41px;
+    width:24px;
+    float:left;
+    margin:0;
+    cursor:pointer;
+}
+span.jFlowPrev span, span.jFlowNext span { display:none; }
+span.jFlowNext {
+    background-image:url('images/slide-next.gif');
+    float:right;
+}
+div.slides-container div.controls {
+    position:relative;
+    top:-220px;
+    width:1020px;
+    margin:0 auto;
+}
+div.slides-container p {
+    padding-top: 10px;
+    color: black;
+}
+div.slides-container a {
+    color: #0275d8;
+}
+div.slides-container h2, div#sub-header h2 {
+    color: #0275d8;
+    font-weight:normal ;
+    text-transform :uppercase;
+}
+div.slide-text {
+    padding-top: 10px;
+}
+p.frontpage-button a {
+    padding: 17px 20px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: #0275d8;
+
+}
+
